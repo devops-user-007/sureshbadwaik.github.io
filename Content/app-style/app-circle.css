@@ -1,0 +1,89 @@
+﻿.circle {
+    margin: 16px;
+    display: inline-block;
+    padding: 16px;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid #275284;
+}
+
+    .circle::before,
+    .circle::after {
+        position: absolute;
+        z-index: -1;
+        display: block;
+        content: '';
+    }
+
+    .circle,
+    .circle::before,
+    .circle::after {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        -webkit-transition: all .5s;
+        transition: all .5s;
+    }
+
+.circle {
+    position: relative;
+    z-index: 2;
+    background-color: #275284;
+    border: 1px solid #5c5eae;
+    color: #E1E1E1;
+    line-height: 50px;
+    overflow: hidden;
+}
+
+    .circle:hover {
+        color: #39A4FF;
+    }
+
+    .circle::after {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        -webkit-transform: scale(.5);
+        transform: scale(.5);
+    }
+
+    .circle:hover::after {
+        background: #39A4FF;
+        border-radius: 50%;
+        -webkit-transform: scale(.9);
+        transform: scale(.9);
+    }
+
+.circle1 {
+    opacity: 0.4;
+}
+
+.circle2 {
+    opacity: 0.6;
+}
+
+.circle3 {
+    opacity: 0.8;
+}
+
+.circle a {
+    text-decoration: none;
+    color: #E1E1E1;
+}
+
+.circle h2 {
+    font-size: 60px;
+}
+
+    .circle h2 small {
+        color: #1d2087;
+    }
+
+.circle p {
+    font-size: 24px;
+    line-height: 26px;
+}

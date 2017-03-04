@@ -1,0 +1,109 @@
+﻿body {
+}
+
+.bg-1 {
+    background-color: #275284;
+    color: White;
+}
+
+.bg-2 {
+    background-color: #F1F1F1; /* Dark Blue */
+    color: #Gray;
+}
+
+.bg-3 {
+    background-color: #ffffff; /* White */
+    color: #555555;
+}
+
+.bg-footer {
+    background-color: #474e5d; /* White */
+    color: #555555;
+}
+
+.img-main-size {
+    width: 400px;
+    height: 400px;
+}
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.navbar-nav li a:hover {
+    color: #1abc9c !important;
+}
+
+.hide-div {
+    display: none;
+}
+
+spanText {
+    display: inline-block;
+    color: #e74c3c;
+    position: relative;
+    white-space: nowrap;
+    top: 0;
+    left: 0;
+    -webkit-animation: move 5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-delay: 1s;
+}
+
+@keyframes move {
+    0% {
+        top: 0px;
+    }
+
+    20% {
+        top: -50px;
+    }
+
+    40% {
+        top: -100px;
+    }
+
+    60% {
+        top: -150px;
+    }
+
+    80% {
+        top: -200px;
+    }
+}
+
+p {
+    height: 50px;
+    float: left;
+    margin-right: 0.3em;
+}
+
+b {
+    float: left;
+    overflow: hidden;
+    position: relative;
+    height: 50px;
+}
+
+.pad-15 {
+    padding: 15px;
+}
+
+.pad-20 {
+    padding: 20px;
+}
+
+.pad-30 {
+    padding: 30px;
+}
+
+.bottom-border-home{
+    border-bottom:5px;
+    border-bottom-color:black;
+}
